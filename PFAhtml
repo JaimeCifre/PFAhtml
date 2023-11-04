@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Exercici2</title>
+	<style>
+    	.contenidor {
+        
+                	text-align: left;
+    	}
+      .formulari {
+        	border: 1px solid #eee;
+                	text-align: left;
+    	}
+    	.contingut {
+        	color: #111;
+        	text-align: left;
+        	padding: px;
+      }
+        .recomanats {
+           text-align: right;
+        }
+    	.escriu-nos {
+        border: 1px solid #111;
+        	background-color: #fff;
+        	padding: px;
+       
+	</style>
+</head>
+<body>
+	<div class="contenidor">
+    		<header>
+              <a name=“inicio”></a>
+              <img src="headerhtml.jpg" />
+      </header>
+      <nav>
+        <li><a href="www.santjosepobrer.com">Educación</a></li>
+        <li><a href="www.santjosepobrer.com">Educación General</a></li>
+        <li><a href="www.santjosepobrer.com">Ciclos Formativos</a></li>
+        <li><a href="www.santjosepobrer.com">Qué hacemos</a></li>
+        <li><a href="www.santjosepobrer.com">Quiénes somos</a></li>
+        <li><a href="www.santjosepobrer.com">Contacto</a></li>
+        <li><a href="www.santjosepobrer.com">Admin</a></li>
+        
+      </nav>
+      <div class="contingut">
+        <main>
+          <h2>Atajos de teclado para pestañas y ventanas</h2>
+          <h4>23 Agosto 2016- Actualizado 6 Octubre 2017, 21:13</h4>
+          <article>
+          <img src="mainhtml.jpg" />
+          <p>A la hora de operar con nuestro navegador es importante tener <b>el control de las pestañas y ventanas</b>. Esto no sólo implica utilizar los clásicos atajos para abrir ventanas y pestañas normales o en modo incógnito, sino también el conseguir facilitar la navegación entre ellas sin necesidad de tener que tocar el rató y perder tiempo mientras escribimos.</p>
+          
+          <table>
+  <tr>
+    <th>Navegador</th>
+    <th>Motor</th>
+    <th>CSS1</th>
+    <th>CSS2</th>
+    <th>CSS3</th>
+  </tr>
+  <tr>
+    <td>Internet Explorer</td>
+    <td>Trident</td>
+    <td>Completo desde la versión 6.0</td>
+    <td>Completo desde la versión 8.0</td>
+    <td>Prácticamente completo</td>
+
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>Gecko</td>
+    <td>Completo</td>
+        <td>Casi cimpleto</td>
+    <td>Selectores, pseudo-clases y algunas propiedades</td>
+
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>Webkit</td>
+    <td>Completo</td>
+        <td>Casi cimpleto</td>
+    <td>Todos los electores, pseudo-clases y muchas propiedades</td>
+
+  </tr>
+             <tr>
+    <td>Opera</td>
+    <td>Presto</td>
+    <td>Completo</td>
+        <td>Casi cimpleto</td>
+    <td>Todos los electores, pseudo-clases y muchas propiedades</td>
+  </tr>
+               <tr>
+    <td>Google Chrome</td>
+    <td>Webkit</td>
+    <td>Completo</td>
+        <td>Casi cimpleto</td>
+    <td>Todos los electores, pseudo-clases y muchas propiedades</td>
+  </tr>
+</table>
+          </article>
+          <p><b>Síguenos</b></p>
+<a href="www.twitter.com/"><img src="twitter.jpg"></a>  
+          <a href="www.facebook.com"><img src="facebook.jpg"></a>  
+          <a href="www.youtube.com"><img src="yt.jpg"></a>  
+          <a href="www.snapchat.com"><img src="sc.jpg"></a>  
+          <a href="www.instagram.com"><img src="insta.jpg"></a>  
+          <a href="www.whatsapp.com"><img src="whats.jpg"></a>  
+
+
+
+        </main>
+        <aside>
+          <div id="recomanats">
+            <h4><b>TE RECOMENDAMOS</b></h4>
+             <img src="tr1html.jpg" />
+            <p>Por qué un editor de texto de hace 40 años machaca al todopoderoso Atom.</p>
+             <img src="tr2html.jpg" />
+            <p>Whatsapp tiene 1.200 millones de usuarios pero no gana dinero. Eso está a punto de cambiar</p>
+             <img src="tr3html.jpg" />
+            <p>Cómo cambiar la extensión de un archivo a Mac</p>
+          </div>
+          <div id="escriu-nos">
+          <h3><b>Escríbenios desde aquí:</b></h3>
+            <fieldset>
+            <legend><h4>Por favor, rellena todos los campos</h4></legend>
+            <form>
+              <label for="nombre">Tu nombre:</label>
+  <input type="text" id="nombre" name="nombre" required><br>
+  <label for="email">Tu correo electrónico:</label>
+  <input type="email" id="email" name="email" required><br>
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+  <input type="submit" value="Enviar">
+</form>
+              </fieldset>
+           
+          </div>
+        </aside>
+        <img src="wslhtml.jpg" />
+      </div>
+      <footer>
+        <a href=“#inicio”>SUBIR</a>
+        <h4>tecnología</h4>
+        <ol> <li>Xataca</li> <li>Xataca Móvil</li> <li>Xataca Foto</li> <li>Xataka Android</li>  </ol>
+        <h4>estilo de vida</h4>
+        <ol> <li>Trendencias</li> <li>Trendencias Belleza</li> <li>Trendencias Hombre</li> <li>Directo al Paladar</li></ol>
+        <h4>motor</h4>
+        <ol> <li>Motorpasión</li> <li>Motorpasión Moto</li></ol>
+        <h4>economía</h4>
+        <ol> <li>El Blog Salmón</li> <li>Pymes y Autonómos</li> </ol>
+        <h4>ocio</h4>
+<ol> <li>Espinof</li> <li>Diario del Viajero</li> </ol>
+      </footer>
+	</div>
+</body>
+</html>
